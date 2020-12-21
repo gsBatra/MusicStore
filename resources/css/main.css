@@ -1,0 +1,12 @@
+body {
+    padding: 5px;
+}
+
+section#content {
+    min-height: 500px;
+    margin-bottom: 200px;
+}
+
+.top{
+    padding-top: 100px;
+}
