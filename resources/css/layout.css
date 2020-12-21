@@ -1,0 +1,20 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('https://i.pinimg.com/originals/70/7c/98/707c98df5d2cffde6d4f755e3008771b.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.float-right{
+    position: absolute; right: 5%;
+}
+
+.head{
+    padding-top: 100px;
+}
+
+.top{
+    padding-top: 60px;
+}
