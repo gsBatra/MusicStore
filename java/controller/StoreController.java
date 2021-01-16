@@ -32,7 +32,7 @@ public class StoreController {
                                 @RequestParam("albumPrice") String albumPrice) {
 
         //
-        //  Add the game to the database
+        //  Add the album to the database
         try {
             this.storeService.addAlbum(albumName, albumArtist, albumGenre, albumDate, albumTracks,
             albumPrice);
@@ -50,7 +50,7 @@ public class StoreController {
     public String editAlbumPage(@PathVariable Long albumId, Model model) {
 
         //
-        //  find the game
+        //  find the album
         Album album = storeService.findAlbumById(albumId);
 
         //
